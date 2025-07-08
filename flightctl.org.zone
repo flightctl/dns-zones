@@ -1,0 +1,17 @@
+$ORIGIN org.
+$TTL 5m
+
+flightctl     IN      SOA     ns1.osci.io. hostmaster.osci.io. (
+                        2025070800   ; serial
+                        12h           ; refresh
+                        15m          ; retry
+                        4d           ; expire
+                        1h)          ; negative caching TTL
+
+        IN      NS      dns1.p04.nsone.net.
+        IN      NS      dns2.p04.nsone.net.
+        IN      NS      dns3.p04.nsone.net.
+        IN      NS      dns4.p04.nsone.net.
+
+$ORIGIN flightctl.org.
+
