@@ -2,7 +2,7 @@ $ORIGIN io.
 $TTL 5m
 
 flightctl     IN      SOA     ns1.osci.io. hostmaster.osci.io. (
-                        2025081401   ; serial
+                        2026012901   ; serial
                         12h           ; refresh
                         15m          ; retry
                         4d           ; expire
@@ -27,3 +27,4 @@ www     IN CNAME    flightctl.github.io.
 docs    IN CNAME    flightctl.github.io.
 rpm     IN CNAME    flightctl.github.io.
 
+_github-pages-challenge-flightctl IN TXT 23bd8d0a58701856383f62ce5247e2
