@@ -2,7 +2,7 @@ $ORIGIN org.
 $TTL 5m
 
 flightctl     IN      SOA     ns1.osci.io. hostmaster.osci.io. (
-                        2026021100   ; serial
+                        2026022400   ; serial
                         12h           ; refresh
                         15m          ; retry
                         4d           ; expire
