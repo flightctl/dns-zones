@@ -2,7 +2,7 @@ $ORIGIN org.
 $TTL 5m
 
 flightctl     IN      SOA     ns1.osci.io. hostmaster.osci.io. (
-                        2026022400   ; serial
+                        2026040800   ; serial
                         12h           ; refresh
                         15m          ; retry
                         4d           ; expire
@@ -12,8 +12,14 @@ flightctl     IN      SOA     ns1.osci.io. hostmaster.osci.io. (
         IN      NS      dns2.p04.nsone.net.
         IN      NS      dns3.p04.nsone.net.
         IN      NS      dns4.p04.nsone.net.
+        IN      AAAA    2606:50c0:8000::153
+        IN      AAAA    2606:50c0:8001::153
+        IN      AAAA    2606:50c0:8002::153
+        IN      AAAA    2606:50c0:8003::153
+        IN      A       185.199.108.153
+        IN      A       185.199.109.153
+        IN      A       185.199.110.153
+        IN      A       185.199.111.153
 
 $ORIGIN flightctl.org.
 
-IN A 8.43.85.237
-IN AAAA 2620:52:3:1:5054:ff:fe64:ab5a
