@@ -1,8 +1,8 @@
 $ORIGIN io.
 $TTL 5m
 
-flightctl     IN      SOA     ns1.osci.io. hostmaster.osci.io. (
-                        2026012901   ; serial
+flightctl     IN      SOA     ns11.osci.io. hostmaster.osci.io. (
+                        2026042800   ; serial
                         12h           ; refresh
                         15m          ; retry
                         4d           ; expire
